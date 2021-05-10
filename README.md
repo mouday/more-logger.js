@@ -1,5 +1,12 @@
 # more-logger
 
+![npm - Downloads](https://img.shields.io/npm/dm/more-logger)
+![npm - Version](https://img.shields.io/npm/v/more-logger)
+![NPM - License](https://img.shields.io/npm/l/more-logger)
+
+- Github: [https://github.com/mouday/more-logger.js](https://github.com/mouday/more-logger.js)
+- Npm: [https://www.npmjs.com/package/more-logger](https://www.npmjs.com/package/more-logger)
+
 日志打印
 
 ## 功能：
