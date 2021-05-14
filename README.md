@@ -58,7 +58,7 @@ log router.js:353
 ## Demo for Browser
 
 ```html
-<script src="../dist/more-logger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/more-logger@1.0.4/dist/more-logger.min.js"></script>
 
 <script>
   // 获取 logger
