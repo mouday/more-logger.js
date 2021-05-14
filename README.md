@@ -3,17 +3,18 @@
 ![npm - Downloads](https://img.shields.io/npm/dm/more-logger)
 ![npm - Version](https://img.shields.io/npm/v/more-logger)
 ![NPM - License](https://img.shields.io/npm/l/more-logger)
+[![](https://data.jsdelivr.com/v1/package/npm/more-logger/badge)](https://www.jsdelivr.com/package/npm/more-logger)
 
 - Github: [https://github.com/mouday/more-logger.js](https://github.com/mouday/more-logger.js)
 - Npm: [https://www.npmjs.com/package/more-logger](https://www.npmjs.com/package/more-logger)
 
-![](doc/loger.png)
-
 日志打印
+
+![](doc/loger.png)
 
 ## 功能：
 
-1、在不同环境下显示或不显示调试日志
+1、可以控制显示或不显示日志
 
 2、打印的日志带有输出文件位置信息
 
@@ -31,14 +32,13 @@ function getLogger(config = null) {}
 
 配置参数
 
-| 参数名   | 类型    | 说明     | 默认值 |
-| -------- | ------- | -------- | ------ |
-| disabled | boolean | 是否禁用 | false  |
+| 参数名   | 类型    | 必须 | 默认值 | 说明     |
+| -------- | ------- | ---- | ------ | -------- |
+| disabled | boolean | 否   | false  | 是否禁用 |
 
 ## Demo for Node.js
 
 ```js
-
 const { getLogger } = require("more-logger");
 
 const disabled = process.env.NODE_ENV == "production";
@@ -73,7 +73,7 @@ log router.js:353
 </script>
 ```
 
-## logger支持的方法
+## logger 支持的方法
 
 ```js
 log() {},
