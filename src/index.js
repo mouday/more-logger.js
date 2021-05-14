@@ -6,8 +6,8 @@ const { console_ } = require("./console_");
  *      true:  返回console_, 不打印日志
  *      false: 返回console, 正常打印日志
  */
-function getLogger(disabled) {
-  if (disabled) {
+function getLogger(config = null) {
+  if (config && config.disabled) {
     return console_;
   } else {
     return console;
