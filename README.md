@@ -82,3 +82,6 @@ info() {},
 warn() {},
 error() {},
 ```
+
+## TODO
+1. 增加 d.ts
